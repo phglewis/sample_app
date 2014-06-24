@@ -9,11 +9,11 @@ gem 'pg'
 end
 
 group :development do
-gem 'sqlite3'
+gem 'rspec-rails', '3.0.0'
 end
 
 group :test do
-gem 'rspec'
+gem 'rspec', '~> 3.0.0'
 end
 
 # Use SCSS for stylesheets
